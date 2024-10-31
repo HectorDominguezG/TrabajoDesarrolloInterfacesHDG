@@ -92,6 +92,8 @@ public class imagenFondoPanel extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldRutaActionPerformed
 
+    
+    
     private void jButtonAbrirRutaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAbrirRutaActionPerformed
         JFileChooser fileChooser = new JFileChooser();
         int resultado = fileChooser.showOpenDialog(this);
@@ -101,6 +103,11 @@ public class imagenFondoPanel extends javax.swing.JPanel {
         }
     }//GEN-LAST:event_jButtonAbrirRutaActionPerformed
 
+    public imagenFondo getSelectedValue(){
+        File f = new File(jTextFieldRuta.getText());
+        Float opacidad = jSliderOpacidad.getValue()/100f;
+        return new imagenFondo(f, opacidad);
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonAbrirRuta;

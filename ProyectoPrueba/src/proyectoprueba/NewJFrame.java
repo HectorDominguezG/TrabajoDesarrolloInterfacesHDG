@@ -26,85 +26,21 @@ public class NewJFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanelImagen2 = new jpanelimagen.jPanelImagen();
-        jPanelImagen3 = new jpanelimagen.jPanelImagen();
-        jPanelImagen1 = new jpanelimagen.jPanelImagen();
-        jPanelImagen4 = new jpanelimagen.jPanelImagen();
-        jPanelImagen5 = new jpanelimagen.jPanelImagen();
-        jPanelImagen6 = new jpanelimagen.jPanelImagen();
-
-        javax.swing.GroupLayout jPanelImagen2Layout = new javax.swing.GroupLayout(jPanelImagen2);
-        jPanelImagen2.setLayout(jPanelImagen2Layout);
-        jPanelImagen2Layout.setHorizontalGroup(
-            jPanelImagen2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-        jPanelImagen2Layout.setVerticalGroup(
-            jPanelImagen2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 56, Short.MAX_VALUE)
-        );
-
-        javax.swing.GroupLayout jPanelImagen3Layout = new javax.swing.GroupLayout(jPanelImagen3);
-        jPanelImagen3.setLayout(jPanelImagen3Layout);
-        jPanelImagen3Layout.setHorizontalGroup(
-            jPanelImagen3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-        jPanelImagen3Layout.setVerticalGroup(
-            jPanelImagen3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-
-        javax.swing.GroupLayout jPanelImagen1Layout = new javax.swing.GroupLayout(jPanelImagen1);
-        jPanelImagen1.setLayout(jPanelImagen1Layout);
-        jPanelImagen1Layout.setHorizontalGroup(
-            jPanelImagen1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 138, Short.MAX_VALUE)
-        );
-        jPanelImagen1Layout.setVerticalGroup(
-            jPanelImagen1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 125, Short.MAX_VALUE)
-        );
-
-        jPanelImagen4.setRutaImagen(new java.io.File("C:\\Users\\hdomgar0208\\Desktop\\1715343763954.jfif"));
-
-        javax.swing.GroupLayout jPanelImagen4Layout = new javax.swing.GroupLayout(jPanelImagen4);
-        jPanelImagen4.setLayout(jPanelImagen4Layout);
-        jPanelImagen4Layout.setHorizontalGroup(
-            jPanelImagen4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-        jPanelImagen4Layout.setVerticalGroup(
-            jPanelImagen4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-
-        jPanelImagen5.setRutaImagen(new java.io.File("C:\\Users\\hdomgar0208\\Desktop\\1715343763954.jfif"));
-
-        javax.swing.GroupLayout jPanelImagen5Layout = new javax.swing.GroupLayout(jPanelImagen5);
-        jPanelImagen5.setLayout(jPanelImagen5Layout);
-        jPanelImagen5Layout.setHorizontalGroup(
-            jPanelImagen5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 395, Short.MAX_VALUE)
-        );
-        jPanelImagen5Layout.setVerticalGroup(
-            jPanelImagen5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
+        jPanelImagen13 = new jpanelimagen.jPanelImagen();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanelImagen6.setRutaImagen(new java.io.File("C:\\Users\\hdomgar0208\\Desktop\\descarga.jfif"));
+        jPanelImagen13.setImagenFondo(new jpanelimagen.imagenFondo(new java.io.File("C:/Users/hecto/OneDrive/Escritorio/Empresas/descarga.jpg"),0.5f));
 
-        javax.swing.GroupLayout jPanelImagen6Layout = new javax.swing.GroupLayout(jPanelImagen6);
-        jPanelImagen6.setLayout(jPanelImagen6Layout);
-        jPanelImagen6Layout.setHorizontalGroup(
-            jPanelImagen6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 226, Short.MAX_VALUE)
+        javax.swing.GroupLayout jPanelImagen13Layout = new javax.swing.GroupLayout(jPanelImagen13);
+        jPanelImagen13.setLayout(jPanelImagen13Layout);
+        jPanelImagen13Layout.setHorizontalGroup(
+            jPanelImagen13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 191, Short.MAX_VALUE)
         );
-        jPanelImagen6Layout.setVerticalGroup(
-            jPanelImagen6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 230, Short.MAX_VALUE)
+        jPanelImagen13Layout.setVerticalGroup(
+            jPanelImagen13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 228, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -112,16 +48,16 @@ public class NewJFrame extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(280, 280, 280)
-                .addComponent(jPanelImagen6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(315, Short.MAX_VALUE))
+                .addGap(150, 150, 150)
+                .addComponent(jPanelImagen13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(480, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(97, 97, 97)
-                .addComponent(jPanelImagen6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(180, Short.MAX_VALUE))
+                .addGap(32, 32, 32)
+                .addComponent(jPanelImagen13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(247, Short.MAX_VALUE))
         );
 
         pack();
@@ -163,11 +99,6 @@ public class NewJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private jpanelimagen.jPanelImagen jPanelImagen1;
-    private jpanelimagen.jPanelImagen jPanelImagen2;
-    private jpanelimagen.jPanelImagen jPanelImagen3;
-    private jpanelimagen.jPanelImagen jPanelImagen4;
-    private jpanelimagen.jPanelImagen jPanelImagen5;
-    private jpanelimagen.jPanelImagen jPanelImagen6;
+    private jpanelimagen.jPanelImagen jPanelImagen13;
     // End of variables declaration//GEN-END:variables
 }

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblIsbnLibro" alignment="0" min="-2" pref="237" max="-2" attributes="0"/>
+                          <Component id="lblTituloLibro" alignment="0" min="-2" pref="237" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Component id="txtTituloLibro" min="-2" pref="237" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Component id="lblMaterias" min="-2" pref="229" max="-2" attributes="0"/>
+                      <Component id="lblTipoEncuadernacion" min="-2" pref="235" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                      <Component id="Guardarbtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="153" max="-2" attributes="0"/>
+                      <Component id="Salirbtn" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblTelefonoCliente" alignment="0" min="-2" pref="237" max="-2" attributes="0"/>
+                          <Component id="lblDniCliente" alignment="0" min="-2" pref="237" max="-2" attributes="0"/>
+                          <Component id="lblNombreCliente" alignment="0" min="-2" pref="231" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtNombreCliente" min="-2" pref="237" max="-2" attributes="0"/>
+                          <Component id="txtDniCliente" min="-2" pref="237" max="-2" attributes="0"/>
+                          <Component id="txtIsbnLibro" min="-2" pref="237" max="-2" attributes="0"/>
+                          <Component id="txtTelefonoCliente" min="-2" pref="237" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblFechaEntregaLibro" alignment="0" min="-2" pref="237" max="-2" attributes="0"/>
+                          <Component id="lblFechaPrestamoLibro" alignment="0" min="-2" pref="237" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="lblEditorialLibro" alignment="0" pref="237" max="32767" attributes="0"/>
+                          <Component id="lblAutorLibro" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtAutorLibro" min="-2" pref="237" max="-2" attributes="0"/>
+                          <Component id="spnFechaPrestamoLibro" alignment="0" min="-2" pref="237" max="-2" attributes="0"/>
+                          <Component id="spnFechaEntregaLibro" alignment="0" min="-2" pref="237" max="-2" attributes="0"/>
+                          <Component id="tpnMaterias" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="cmbTipoEncuadernacion" alignment="0" max="32767" attributes="0"/>
+                              <Component id="cmbEditorialLibro" alignment="0" pref="237" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNombreCliente" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="txtNombreCliente" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDniCliente" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="txtDniCliente" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblTelefonoCliente" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="txtTelefonoCliente" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblIsbnLibro" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="txtIsbnLibro" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTituloLibro" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="txtTituloLibro" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAutorLibro" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="txtAutorLibro" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblEditorialLibro" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="cmbEditorialLibro" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTipoEncuadernacion" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="cmbTipoEncuadernacion" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="tpnMaterias" max="32767" attributes="0"/>
+                  <Component id="lblMaterias" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="spnFechaPrestamoLibro" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="lblFechaPrestamoLibro" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblFechaEntregaLibro" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="spnFechaEntregaLibro" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Guardarbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Salirbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="44" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="txtNombreCliente">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Inserte nombre y apellidos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNombreClienteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDniCliente">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="DNI"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDniCliente">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Introduzca DNI"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTelefonoCliente">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Tel&#xe9;fono"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelefonoCliente">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Introduzca su tel&#xe9;fono"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIsbnLibro">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="ISBN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIsbnLibro">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Introduzca el ISBN del libro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTituloLibro">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="T&#xed;tulo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTituloLibro">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Introduzca el t&#xed;tulo del libro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAutorLibro">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Autor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAutorLibro">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Introduzca el autor del libro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEditorialLibro">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Editorial"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbEditorialLibro">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Urano Ediciones"/>
+            <StringItem index="1" value="C&#xed;rculo Rojo"/>
+            <StringItem index="2" value="Vicens Vives"/>
+            <StringItem index="3" value="Altamar"/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Elija la editorial del libro"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbEditorialLibroActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTipoEncuadernacion">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Tipo de Encuadernaci&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbTipoEncuadernacion">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="R&#xfa;stica"/>
+            <StringItem index="1" value="Tapa Dura"/>
+            <StringItem index="2" value="Piel"/>
+            <StringItem index="3" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Elija el tipo de encuadernaci&#xf3;n "/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMaterias">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Materias"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="tpnMaterias">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Escoja la materia "/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlAlimentacion">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Alimentacion-Nutrici&#xf3;n">
+                <Property name="tabTitle" type="java.lang.String" value="Alimentacion-Nutrici&#xf3;n"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="chbAnalisisAlimentos">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="An&#xe1;lisis de alimentos"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="chbIndustriaAlimentaria">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Industria alimentaria"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="chbNutricionDietetica">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nutrici&#xf3;n y diet&#xe9;tica"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlMedicina">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Medicina">
+                <Property name="tabTitle" type="java.lang.String" value="Medicina"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="chbNeurologia">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Neurolog&#xed;a"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="chbPatologia">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Patolog&#xed;a"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="chbMedicinaGeneral">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Medicina general"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlDerecho">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Derecho">
+                <Property name="tabTitle" type="java.lang.String" value="Derecho"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="chbDerechoPrivado">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Derecho privado"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="chbDerechoPublico">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Derecho p&#xfa;blico"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="chbDerechoMilitar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Derecho militar"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlMusica">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="M&#xfa;sica">
+                <Property name="tabTitle" type="java.lang.String" value="M&#xfa;sica"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="chbFlamenco">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Flamenco"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="chbMusicaClasica">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="M&#xfa;sica cl&#xe1;sica"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="chbTeoriaHistoriaMusica">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Teor&#xed;a e historia de la m&#xfa;sica"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblFechaPrestamoLibro">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Fecha Pr&#xe9;stamo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="spnFechaEntregaLibro">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="now" stepSize="5" type="date"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Elija la fecha de devoluci&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFechaEntregaLibro">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Fecha Entrega"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="spnFechaPrestamoLibro">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="now" stepSize="5" type="date"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Elija la fecha de pr&#xe9;stamo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNombreCliente">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="NombreYApellidos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Guardarbtn">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Guardar todo el registro"/>
+        <Property name="label" type="java.lang.String" value="Guardar Registro"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="GuardarbtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Salirbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salir"/>
+        <Property name="toolTipText" type="java.lang.String" value="Cerrar formulario"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SalirbtnActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
